@@ -1,7 +1,7 @@
 <?php
 
 //connect with database demo
-$connect= pg_connect("host=localhost dbname=EBilly user=postgres password=WelKom7993") or die("ERROR:could not connect to the database!!!");
+$connect= pg_connect("host=localhost dbname=postgres user=postgres password=WelKom7993") or die("ERROR:could not connect to the database!!!");
 
 //select all data from kenniskaart table
 $query="select * from sch_map.kenniskaart ";
