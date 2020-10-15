@@ -1,0 +1,100 @@
+
+.modal-content{
+  border-color: #1AA1E1;
+  border-radius: 10px;
+  border-style: solid;
+}
+
+.modal-title{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: grey;
+  border-radius: 2.5px;
+}
+
+
+#niv-rol-sub{
+  margin-top: 2.5vh;
+  list-style: none;
+  display: inline-block;
+}
+
+#aut-dat{
+  display: inline-block;
+  margin-left: 43vw;
+  list-style: none;
+  text-align: right;
+}
+#box-why-title, 
+#box-what-title, 
+#box-how-title{
+  font-weight: bold;
+}
+
+#box-why-text, 
+#box-what-text, 
+#box-how-text{
+  font-weight: lighter;
+  list-style: none;
+}
+
+.gradient_underline_red{
+  border-style: solid;
+  border-width: 0 0 4px 0;
+  padding-right: 225px;
+  padding-left: 0px;
+  border-color: #E5312C;
+}
+
+.gradient_underline_blue{
+  border-style: solid;
+  border-width: 0 0 4px 0;
+  padding-right: 225px;
+  padding-left: 0px;
+  border-color: #1AA1E1;
+}
+
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  /* Modal inhoud */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  
+
+
+
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}

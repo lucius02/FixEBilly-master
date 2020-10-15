@@ -1,0 +1,110 @@
+body {
+    width: 610px;
+    font-family: Arial;
+    color: #212121;
+}
+
+#toys-grid {
+    margin-bottom: 30px;
+}
+
+#toys-grid .txt-heading {
+    background-color: #D3F5B8;
+}
+
+#toys-grid table {
+    width: 100%;
+    background-color: #F0F0F0;
+}
+
+#toys-grid table td {
+    background-color: #FFFFFF;
+}
+
+.search-box {
+    border: 1px solid #F0F0F0;
+    background-color: #C8EEFD;
+    margin: 2px 0px;
+}
+
+.demoInputBox {
+    padding: 10px;
+    border: #F0F0F0 1px solid;
+    border-radius: 4px;
+    margin: 0px 5px
+}
+
+.btnSearch {
+    padding: 10px;
+    border: #F0F0F0 1px solid;
+    border-radius: 4px;
+    margin: 0px 5px;
+}
+
+.perpage-link {
+    padding: 5px 10px;
+    border: #C8EEFD 2px solid;
+    border-radius: 4px;
+    margin: 0px 5px;
+    background: #FFF;
+    cursor: pointer;
+}
+
+.current-page {
+    padding: 5px 10px;
+    border: #C8EEFD 2px solid;
+    border-radius: 4px;
+    margin: 0px 5px;
+    background: #C8EEFD;
+}
+
+.btnEditAction {
+    background-color: #2FC332;
+    padding: 2px 5px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.btnDeleteAction {
+    background-color: #D60202;
+    padding: 2px 5px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+#btnAddAction {
+    background-color: #09F;
+    border: 0;
+    padding: 5px 10px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+#frmToy {
+    border-top: #F0F0F0 2px solid;
+    background: #FAF8F8;
+    padding: 10px;
+}
+
+#frmToy div {
+    margin-bottom: 15px
+}
+
+#frmToy div label {
+    margin-left: 5px
+}
+
+.error {
+    background-color: #FF6600;
+    border: #AA4502 1px solid;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+
+.info {
+    font-size: .8em;
+    color: #FF6600;
+    letter-spacing: 2px;
+    padding-left: 5px;
+}

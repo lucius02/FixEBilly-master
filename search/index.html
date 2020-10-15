@@ -1,0 +1,10 @@
+<form name="frmSearch" method="post" action="index.php">
+	<div class="search-box">
+	<p>
+	<input type="text" placeholder="Name" name="search[name]" class="demoInputBox" value="<?php echo $name; ?>"	/>
+	<input type="text" placeholder="Code" name="search[code]" class="demoInputBox" value="<?php echo $code; ?>"	/>
+	<input type="submit" name="go" class="btnSearch" value="Search">
+	<input type="reset" class="btnSearch" value="Reset" onclick="window.location='index.php'">
+	</p>
+	</div>
+</form>

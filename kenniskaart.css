@@ -1,0 +1,55 @@
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+
+#kaart-title ul{
+    margin-top: 5vh;
+    text-align: center;
+    font-size: 24px;
+    font-weight:bold;
+
+}
+
+#selections ul, ul1{ 
+    text-align: left;
+    margin: 5 auto;
+    
+}
+
+
+#selections ul1{
+    color: green;
+}
+
+#aut-dat-edit{
+    margin-top: 2.5vh;
+}
+
+#info{
+    margin-top: 5vh;
+}
+
+#box-title p{
+    margin-left: 2.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#box-text ul{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+}
+
+
+.horizontal-line{
+    border-bottom: 3px solid aqua;
+    display: block;
+    margin: 0 auto;
+    width: 1300px;
+    left: 150px;
+    height: 40px;
+  }

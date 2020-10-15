@@ -1,0 +1,96 @@
+html, body {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+#logo{
+  float: left;
+    padding: 2vw;
+    width: 90px;
+
+}
+
+#searchbar{
+  margin-top: 5vh;
+  margin-left: 6vw;
+  position: relative;
+  font-size: 25px;
+  height: 6vh;
+  width: 35vw;
+  background: lightgray;
+}
+
+
+.vertical-line-blue-top{
+  border-right: 4px solid #00a0d2;
+  display: block;
+  height: 120px;
+  margin: 0 auto;
+  width: 0px;
+  position: absolute;
+  left: 160px;
+}
+
+.vertical-line-red{
+  border-right: 4px solid #ed0010;
+  display: absolute;
+  height: 550px;
+  margin-top: 170px;
+  width: 0px;
+  position: absolute;
+  left: 160px;
+}
+
+
+.horizontal-line{
+  border-bottom: 4px solid #00a0d2;
+  display: block;
+  margin-left: 35px;
+  width: 1250px;
+  position: absolute;
+  left: 190px;
+  height: 60px;
+}
+
+div.filters{
+  height: fit-content;
+  width: 120px;
+  position: absolute;
+  left: 20px;
+  font-size: 18px;
+  margin-top: 10vh;
+}
+
+.filters li{
+  font-style: italic;
+}
+
+.niveau{
+  margin-top: 5vh;
+  font-size: larger;
+  font-size: inherit;
+  font-size: 18px;
+}
+
+.hbo {
+  margin-top: 5vh;
+  font-size: larger;
+  font-style: inherit;
+  font-size: 18px;
+}
+
+.rol{
+  margin-top: 5vh;
+  font-size: larger;
+  font-style: inherit;
+  font-size: 18px;
+}
+

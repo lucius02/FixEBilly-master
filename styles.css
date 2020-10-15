@@ -1,0 +1,162 @@
+body {
+    background-image: url("afbeeldingen BG/boekenkast1.jpg");
+}
+
+span 
+{
+    border: solid 1px black;
+}
+
+
+.label{
+font-family: 'Times New Roman', Times, serif;
+font-size: large;
+text-align: center;
+position: relative;
+left: 370px;
+width: 300px;
+height: 30px;
+background-color: lightcoral;
+}
+
+.button1 {
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    bottom: 100px;
+    left: 600px;
+}
+
+.template_blok {
+    width: 800px;
+    height: auto;
+    background-color: rgb(50, 121, 168);
+    left: 50%;
+    top: 75%;
+    margin-left: -25%;
+    position: absolute;
+    margin-top: -25%;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+.button2 {
+    height: 50px;
+    background-color: lightcoral;
+    position: relative;
+    left: 350px;
+}
+
+.title1 {
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    left: 54%;
+    top: 10%;
+    margin-left: -17%;
+    background-color: lightgoldenrodyellow;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+.invulveld {
+    height: 100px;
+    max-height: 100px;
+    color: black;
+    background-color: lightgoldenrodyellow;
+    position: relative;
+    left: 50px;
+    max-width: 700px;
+    display:block;
+    width: 700px;
+}
+
+.checkbox {
+    position: absolute;
+    left: 65px;
+    text-align: justify;
+    margin: 20px;
+}
+
+.invulbox {
+    position: absolute;
+    left: 50px;
+    margin-top: 22px;
+}
+
+.check_block {
+    display: inline-block;
+    width: 696px;
+    height: 110px;
+    background-color: lightgoldenrodyellow;
+    margin: 5px;
+    position: relative;
+    top: 00px;
+    left: 45px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(195, 195, 195));
+    border-image: initial;
+}
+
+.niveau_block {
+    display: inline-block;
+    width: 696px;
+    height: 80px;
+    background-color: lightgoldenrodyellow;
+    margin: 5px;
+    position: relative;
+    top: 00px;
+    left: 45px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(195, 195, 195));
+    border-image: initial;
+}
+
+.niveau {
+    background-color: lightcoral;
+}
+
+.checkbox2 {
+    position: absolute;
+    left: 65px;
+    text-align: justify;
+    margin-left: 15px;
+}
+
+.invulbox2 {
+    position: absolute;
+    left: 50px;
+    margin-top: 3px;
+}
+
+.ow_block {
+    display: inline-block;
+    width: 700px;
+    height: 500px;
+    background-color: lightgoldenrodyellow;
+    margin: 5px;
+    position: relative;
+    top: 00px;
+    left: 48px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(195, 195, 195));
+    border-image: initial;
+}
+
+.checkbox3 {
+    position: absolute;
+    left: 65px;
+    text-align: justify;
+    margin: 20px;
+}
+
+.invulbox3 { 
+    position: absolute;
+    left: 50px;
+    margin-top: 22px;
+}

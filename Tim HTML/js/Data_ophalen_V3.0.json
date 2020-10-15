@@ -1,0 +1,11 @@
+var obj, dbParam, xmlhttp;
+obj = { "limit":20 };
+dbParam = JSON.stringify(obj);
+xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    document.getElementById("Data_Ophalen_V2").innerHTML = this.responseText;
+  }
+};
+xmlhttp.open("GET", "Data_Ophalen_V2.php?x=" + dbParam, true);
+xmlhttp.send();
