@@ -73,14 +73,10 @@ class Connection {
     }
 }
 
-echo "stap1";
-// 
 if ( 
     isset($_POST['opslaan']) 
     and $_FILES['plaatje']['name'] <> '' and $_POST['rol'] <> '' and $_POST['onderwerp'] <> '' and $_POST['competentie'] <> '' and $_POST['wat'] <> '' and $_POST['why'] <> '' and $_POST['how'] <> ''  and $_POST['bronnen'] <> '' and $_POST['niveau'] <> '' and $_POST['studieduur'] <> '' and $_POST['rating'] <> ''
     ) {
-
-        echo "stap2";
 
     $checkbox1=$_POST['niveau'];
     $chk="";  

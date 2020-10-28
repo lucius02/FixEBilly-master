@@ -53,9 +53,9 @@
 
 	$pdocrud = new PDOCrud();
 	//add Filter ("unique-filter-name", "Filter display name", "column name to be matched","type of filter")
-	$pdocrud->addFilter("product_cat_filter", "Product Category", "product_cat", "radio");
+	$pdocrud->addFilter("niveau_filter", "Niveau", "niveau", "dropdown");
 	//set data for filter ("unique-filter-name",array of data or table,key (if source=db),value (if source=db), "source_type") 
-	$pdocrud->setFilterSource("product_cat_filter", array("Electronic" => "Electronic", "Fashion" => "Fashion"), "", "", "array");
+	$pdocrud->setFilterSource("niveau_filter", array("Beginner" => "Beginner", "Gevorderde" => "Gevorderde", "Expert" => "Expert"), "", "", "String");
 	
 	$pdocrud->addFilter("ProductLineFilter", "Product Line", "product_line", "dropdown");
 	$pdocrud->setFilterSource("ProductLineFilter", "products", "product_line", "product_line as pl", "db");
